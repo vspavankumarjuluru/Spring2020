@@ -29,6 +29,7 @@ public class WishMessageGenerator {
 	}
 	
 	public String generateWishMsg(String user) {
+		System.out.println("Date is:"+date);
 		hours=date.getHours();
 		if(hours<12)
 		return "Good Morning:"+user;
